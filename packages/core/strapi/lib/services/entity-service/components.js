@@ -58,6 +58,7 @@ const createComponents = async (uid, data) => {
             __pivot: {
               field: attributeName,
               component_type: componentUID,
+              firstName: "firstName",
             },
           };
         });
